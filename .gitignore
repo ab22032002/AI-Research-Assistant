@@ -1,0 +1,24 @@
+
+# Python cache & logs
+__pycache__/
+*.pyc
+*.pyo
+*.log
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Data & model files (optional large artifacts)
+data/
+models/
+outputs/
+faiss_index/
+
+# System files
+.DS_Store
+Thumbs.db
