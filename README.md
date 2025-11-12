@@ -33,7 +33,6 @@ built using open-source models. It uses Hugging Face’s `Flan-T5` for generatio
 └── .gitignore                       
 ```
 
-
 ###  Modules
 - `ingestion.py` — Load and clean raw documents
 - `chunking.py` — Split long text into semantic chunks
@@ -49,6 +48,7 @@ built using open-source models. It uses Hugging Face’s `Flan-T5` for generatio
 - Embedding model: `all-MiniLM-L6-v2`
 - Temperature: 0.2
 - Model: `google/flan-t5-base`
+
 
 ### How to run
 ```bash
